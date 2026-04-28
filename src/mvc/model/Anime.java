@@ -24,6 +24,6 @@ public class Anime{
     }
 
     public String toString(){
-        return "Nome: " + nome + "Gênero: " + genero + "Nota: " + nota;
+        return "Nome: " + nome + " | Gênero: " + genero + " | Nota: " + nota;
     }
 }

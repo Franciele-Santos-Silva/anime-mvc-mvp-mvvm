@@ -17,9 +17,9 @@ public class AnimeView{
         System.out.println(anime);
     }
 
-    public void mostrarLIsta(List<Anime> animes){
+    public void mostrarLista(List<Anime> animes){
         if (animes.isEmpty()) {
-            System.out.println("Nenhum anime cadastrado.")
+            System.out.println("Nenhum anime cadastrado.");
         } else{
             System.out.println("\nLista de animes.");
             for(Anime anime : animes){
