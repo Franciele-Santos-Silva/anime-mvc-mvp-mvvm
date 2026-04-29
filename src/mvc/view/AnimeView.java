@@ -6,7 +6,7 @@ import java.util.List;
 public class AnimeView{
 
     public void mostrarMenu(){
-        System.out.println("\n=== MENU ===");
+        System.out.println("\n=== ANIMES ===");
         System.out.println("1 - Adicionar anime");
         System.out.println("2 - Listar animes");
         System.out.println("0 - Sair");
