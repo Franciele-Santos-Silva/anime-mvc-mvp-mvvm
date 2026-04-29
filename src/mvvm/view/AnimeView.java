@@ -1,6 +1,6 @@
 package mvvm.view;
 
-import mvp.model.Anime;
+import mvvm.model.Anime;
 
 import java.util.List;
 
