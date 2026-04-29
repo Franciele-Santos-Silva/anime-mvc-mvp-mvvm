@@ -14,17 +14,24 @@ Cada arquitetura implementa a mesma funcionalidade com estruturas diferentes.
 
 ## Estrutura do Projeto
 
-# MVC (Model-View-Controller)
+```plaintext
+src/
+├── mvc/
+├── mvp/
+├── mvvm/
+```
+
+## MVC (Model-View-Controller)
 
 - `Model`: representa os dados 
 - `View`: interface com o usuário 
 - `Controller`: controla a lógica do sistema
 - `Main`: ponto de entrada do sistema
 
-✔ Implementado com lista de animes  
+✔ Implementação com lista de animes  
 ✔ Cadastro e listagem via console
 
-# MVP (Model-View-Presenter)
+## MVP (Model-View-Presenter)
 
 - `Model`: estrutura dos dados
 - `View`: responsável apenas pela interface
@@ -34,13 +41,16 @@ Cada arquitetura implementa a mesma funcionalidade com estruturas diferentes.
 ✔ Separação mais clara entre lógica e interface  
 ✔ View mais simples
 
-# MVVM (Model-View-ViewModel)
+## MVVM (Model-View-ViewModel)
 
-Arquitetura será implementada posteriormente com:
+- `Model`: dados
+- `View`: exibe informações
+- `ViewModel`: contém a lógica e fornece dados para a View
+- `Main`: conecta View e ViewModel
 
-- Model
-- View
-- ViewModel
+✔ View não controla lógica  
+✔ ViewModel centraliza dados  
+✔ Melhor organização da aplicação
 
 ## Funcionalidades
 
