@@ -14,7 +14,7 @@ Cada arquitetura implementa a mesma funcionalidade com estruturas diferentes.
 
 ## Estrutura do Projeto
 
-## MVC (Model-View-Controller)
+# MVC (Model-View-Controller)
 
 - `Model`: representa os dados 
 - `View`: interface com o usuário 
@@ -24,7 +24,7 @@ Cada arquitetura implementa a mesma funcionalidade com estruturas diferentes.
 ✔ Implementado com lista de animes  
 ✔ Cadastro e listagem via console
 
-## MVP (Model-View-Presenter)
+# MVP (Model-View-Presenter)
 
 - `Model`: estrutura dos dados
 - `View`: responsável apenas pela interface
@@ -34,7 +34,7 @@ Cada arquitetura implementa a mesma funcionalidade com estruturas diferentes.
 ✔ Separação mais clara entre lógica e interface  
 ✔ View mais simples
 
-## MVVM (Model-View-ViewModel)
+# MVVM (Model-View-ViewModel)
 
 Arquitetura será implementada posteriormente com:
 
