@@ -1,8 +1,6 @@
 package mvvm;
 
-public class model {
-
-    public class Anime {
+public class Anime {
         private String nome;
         private String genero;
         private double nota;
@@ -28,6 +26,4 @@ public class model {
         public String toString(){
             return "Nome: " + nome + " | Gênero: " + genero + " | Nota: " + nota;
         }
-
     }
-}
