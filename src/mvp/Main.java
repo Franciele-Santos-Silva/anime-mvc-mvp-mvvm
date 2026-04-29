@@ -1,16 +1,17 @@
 package mvp;
 
-import mvc.controller.AnimeController;
-import mvc.view.AnimeView;
+import mvp.presenter.AnimePresenter;
+import mvp.view.AnimeView;
 
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args){
+
         Scanner sc = new Scanner(System.in);
-        mvc.view.AnimeView view = new AnimeView();
-        AnimeController controller = new AnimeController(view);
+        AnimeView view = new AnimeView();
+        AnimePresenter presenter = new AnimePresenter(view);
 
         int opcao;
 
@@ -31,11 +32,11 @@ public class Main {
                     System.out.print("Nota: ");
                     double nota = sc.nextDouble();
 
-                    controller.adicionarAnime(nome, genero, nota);
+                    presenter.adicionarAnime(nome, genero, nota);
                     break;
 
                 case 2:
-                    controller.listarAnimes();
+                    presenter.listarAnimes();
                     break;
 
                 case 0:
