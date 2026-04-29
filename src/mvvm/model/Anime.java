@@ -1,4 +1,4 @@
-package mvvm;
+package mvvm.model;
 
 public class Anime {
         private String nome;
